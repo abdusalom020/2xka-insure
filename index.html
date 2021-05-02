@@ -6,76 +6,85 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Insure</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-  <header>
-    <img src="images/logo.svg" alt="insure logo">
+  <header class="side-header S">
+    <img src="images/logo.svg" alt="insure logo" width="112" height="18">
     <!-- ul>li*3>a -->
     <nav>
     <ul>
       <li><a href="#">How we work</a></li>
       <li><a href="#">Blog</a></li>
       <li><a href="#">Account</a></li>
-      <li><a href="#">View plans</a></li>
+      <li class="telegram-link"><a href="#">View plans</a></li>
     </ul>
   </nav>
   </header>
 
 
   <main>
-    <div>
+    <div class="main-header">
       <hr>
-      <h1>Humanizing your insurance.</h1>
-      <p>Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the
+
+      <!--<img src="images/siniq2.svg" alt="siniq qiyshiq chiziqlar">-->
+      <div style="margin-left: 165px; margin-right: 20px;">
+        <h1>Humanizing your insurance.</h1>
+        <p>Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the
         plan that’s right for you. Ensure you and your loved ones are protected.</p>
-      <a href="#">View plans</a>
-      <img src="images/siniq2.svg" alt="siniq qiyshiq chiziqlar">
-      <img src="images/foto.jpg" alt="oilaviy sayohat qilayotgan rasm">
-      <img src="images/siniq.svg" alt="siniq qiyshiq chiziqlar">
+        <a href="#">View plans</a>
+      </div>
+
+      <img src="images/foto.jpg" alt="oilaviy sayohat qilayotgan rasm" width="540px" height="650px" style="margin-top: 105px; margin-right: 165px;" >
+      <!--<img src="images/siniq.svg" alt="siniq qiyshiq chiziqlar" width="697" height="649">-->
     </div>
 
 
 
-    <section>
+    <section class="icon-section" style=" margin-top: 369px;">
     <hr>
     <h2>We’re different</h2>
     <!-- ul>li*3>h3+p -->
-    <ul>
-      <li>
-        <img src="images/ikon1.svg" alt="chaqmoqli ikonka">
-        <h3>Snappy Process</h3>
-        <p>Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
-      </li>
-      <li>
-        <img src="images/ikon2.svg" alt="dollarli ikonka">
-        <h3>Affordable Prices</h3>
-        <p>We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best
+    <div class="iconca">
+      <ul style="display: flex;">
+        <li>
+          <img src="images/ikon1.svg" alt="chaqmoqli ikonka">
+          <h3>Snappy Process</h3>
+          <p >Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
+        </li>
+        <li >
+          <img src="images/ikon2.svg" alt="dollarli ikonka">
+          <h3>Affordable Prices</h3>
+          <p>We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best
           coverage possible.</p>
-      </li>
-      <li>
-        <img src="images/ikon3.svg" alt=" ikonka">
-        <h3>People First</h3>
-        <p>Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need
-          it.</p>
-      </li>
-    </ul>
+        </li>
+        <li>
+          <img src="images/ikon3.svg" alt=" ikonka">
+          <h3>People First</h3>
+          <p>Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need it.</p>
+        </li>
+      </ul>
+    </div>
     </section>
 
 
-    <div>
+    <div class="title" style="display: flex; justify-content: space-between;">
 
       <h2>Find out more about how we work</h2>
       <a href="#">How we work</a>
-      <img src="images/siniq3.svg" alt="siniq qiyshiq chiziqlar">
+      <!--<img src="images/siniq3.svg" alt="siniq qiyshiq chiziqlar">-->
     </div>
 
   </main>
 
-  <footer>
-    <div>
+  <footer class="footer-class" >
+    <div class="footer-header">
       <img src="images/logo.svg" alt="insure logo">
-      <ul>
+      <ul style="display: flex; list-style: none; justify-content: flex-end; ">
         <li><a href="index.html"><img src="images/face.svg" alt="facebook ikonkasi"></a></li>
         <li><a href="index.html"><img src="images/twit.svg" alt="twitter ikonkasi"></a></li>
         <li><a href="index.html"><img src="images/Path.svg" alt="pinteress ikonkasi"></a></li>
@@ -84,38 +93,46 @@
     </div>
 
     <hr>
-    <div>
+    <div class="bottom">
 
-      <h2>Footer</h2>
-      <h3>Our company</h3>
-      <ul>
-        <li><a href="#">How we work</a></li>
-        <li><a href="#">Why Insure?</a></li>
-        <li><a href="#">View plans</a></li>
-        <li><a href="#">Reviews</a></li>
-      </ul>
+      <div>
 
-      <h3>Help me</h3>
-      <ul>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Terms of use</a></li>
-        <li><a href="#">Privacy policy</a></li>
-        <li><a href="#">Cookies</a></li>
-      </ul>
+        <p>Our company</p>
+        <ul>
+          <li><a href="#">How we work</a></li>
+          <li><a href="#">Why Insure?</a></li>
+          <li><a href="#">View plans</a></li>
+          <li><a href="#">Reviews</a></li>
+        </ul>
+      </div>
 
-      <h3>Contact</h3>
-      <ul>
-        <li><a href="#">Sales</a></li>
-        <li><a href="#">Support</a></li>
-        <li><a href="#">Live chat</a></li>
-      </ul>
+      <div>
+        <p>Help me</p>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Terms of use</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Cookies</a></li>
+        </ul>
+      </div>
 
-      <h3>Others</h3>
-      <ul>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">Press</a></li>
-        <li><a href="#">Licenses</a></li>
-      </ul>
+      <div>
+        <p>Contact</p>
+        <ul>
+          <li><a href="#">Sales</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Live chat</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <p>Others</p>
+        <ul>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Licenses</a></li>
+        </ul>
+      </div>
     </div>
   </footer>
 </body>
